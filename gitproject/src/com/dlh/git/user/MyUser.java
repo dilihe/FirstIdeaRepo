@@ -15,8 +15,12 @@ public class MyUser {
         System.out.println("master的");
         return 1;
     }
+    public static void testMerge() {
+        System.out.println("测试冲突");
+    }
     public static void main(String[] args) {
         mytest();
+        testMerge();
 
         testMerge01();
     }
