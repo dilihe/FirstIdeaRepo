@@ -17,6 +17,7 @@ public class MyUser {
     }
     public static void testMerge() {
         System.out.println("测试冲突");
+        System.out.println("误删，回退");
     }
     public static void main(String[] args) {
         mytest();
