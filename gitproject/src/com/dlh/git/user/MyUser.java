@@ -11,7 +11,13 @@ public class MyUser {
         System.out.println("分支1.0");
     }
 
+    public static int testMerge01() {
+        System.out.println("master的");
+        return 1;
+    }
     public static void main(String[] args) {
         mytest();
+
+        testMerge01();
     }
 }
