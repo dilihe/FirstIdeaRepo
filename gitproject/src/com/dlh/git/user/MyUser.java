@@ -11,7 +11,11 @@ public class MyUser {
         System.out.println("分支1.0");
     }
 
+    public static void testMerge() {
+        System.out.println("测试冲突");
+    }
     public static void main(String[] args) {
         mytest();
+        testMerge();
     }
 }
